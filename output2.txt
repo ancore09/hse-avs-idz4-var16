@@ -1,0 +1,371 @@
+Thread 1: handling cell [0][0]
+2	0	0	0	3	
+0	0	0	0	-1	
+0	0	-1	0	0	
+0	0	0	0	0	
+0	0	0	0	0	
+
+Thread 2: handling cell [0][4]
+2	0	0	0	3	
+0	0	0	0	-1	
+0	0	-1	0	0	
+0	0	0	0	0	
+0	0	0	0	0	
+
+Thread 1: handling cell [0][1]
+1	2	0	0	1	
+0	0	0	0	3	
+0	0	-1	0	0	
+0	0	0	0	0	
+0	0	0	0	0	
+
+Thread 2: cant handle cell [1][4]
+1	2	0	0	1	
+0	0	0	0	3	
+0	0	-1	0	0	
+0	0	0	0	0	
+0	0	0	0	0	
+
+Thread 2: handling cell [2][4]
+1	2	0	0	1	
+0	0	0	0	-1	
+0	0	-1	0	3	
+0	0	0	0	0	
+0	0	0	0	0	
+
+Thread 1: handling cell [0][2]
+1	1	2	0	1	
+0	0	0	0	-1	
+0	0	-1	0	3	
+0	0	0	0	0	
+0	0	0	0	0	
+
+Thread 2: handling cell [3][4]
+1	1	2	0	1	
+0	0	0	0	-1	
+0	0	-1	0	1	
+0	0	0	0	3	
+0	0	0	0	0	
+
+Thread 1: handling cell [0][3]
+1	1	1	2	1	
+0	0	0	0	-1	
+0	0	-1	0	1	
+0	0	0	0	3	
+0	0	0	0	0	
+
+Thread 2: handling cell [4][4]
+1	1	1	2	1	
+0	0	0	0	-1	
+0	0	-1	0	1	
+0	0	0	0	1	
+0	0	0	0	3	
+
+Thread 1: cell is already cleared [0][4]
+1	1	1	1	2	
+0	0	0	0	-1	
+0	0	-1	0	1	
+0	0	0	0	1	
+0	0	0	0	3	
+
+Thread 1: cant handle cell [1][4]
+1	1	1	1	1	
+0	0	0	0	2	
+0	0	-1	0	1	
+0	0	0	0	1	
+0	0	0	0	3	
+
+Thread 2: handling cell [4][3]
+1	1	1	1	1	
+0	0	0	0	2	
+0	0	-1	0	1	
+0	0	0	0	1	
+0	0	0	3	1	
+
+Thread 1: handling cell [1][3]
+1	1	1	1	1	
+0	0	0	2	-1	
+0	0	-1	0	1	
+0	0	0	0	1	
+0	0	0	3	1	
+
+Thread 2: handling cell [3][3]
+1	1	1	1	1	
+0	0	2	1	-1	
+0	0	-1	0	1	
+0	0	0	3	1	
+0	0	0	1	1	
+
+Thread 1: handling cell [1][2]
+1	1	1	1	1	
+0	0	2	1	-1	
+0	0	-1	0	1	
+0	0	0	3	1	
+0	0	0	1	1	
+
+Thread 2: handling cell [2][3]
+1	1	1	1	1	
+0	2	1	1	-1	
+0	0	-1	3	1	
+0	0	0	1	1	
+0	0	0	1	1	
+
+Thread 1: handling cell [1][1]
+1	1	1	1	1	
+0	2	1	1	-1	
+0	0	-1	3	1	
+0	0	0	1	1	
+0	0	0	1	1	
+
+Thread 2: cell is already cleared [1][3]
+1	1	1	1	1	
+2	1	1	3	-1	
+0	0	-1	1	1	
+0	0	0	1	1	
+0	0	0	1	1	
+
+Thread 1: handling cell [1][0]
+1	1	1	1	1	
+2	1	1	3	-1	
+0	0	-1	1	1	
+0	0	0	1	1	
+0	0	0	1	1	
+
+Thread 2: cell is already cleared [0][3]
+1	1	1	3	1	
+2	1	1	1	-1	
+0	0	-1	1	1	
+0	0	0	1	1	
+0	0	0	1	1	
+
+Thread 2: cell is already cleared [0][2]
+1	1	3	1	1	
+2	1	1	1	-1	
+0	0	-1	1	1	
+0	0	0	1	1	
+0	0	0	1	1	
+
+Thread 2: cell is already cleared [1][2]
+1	1	1	1	1	
+2	1	3	1	-1	
+0	0	-1	1	1	
+0	0	0	1	1	
+0	0	0	1	1	
+
+Thread 2: cant handle cell [2][2]
+1	1	1	1	1	
+2	1	1	1	-1	
+0	0	3	1	1	
+0	0	0	1	1	
+0	0	0	1	1	
+
+Thread 2: handling cell [3][2]
+1	1	1	1	1	
+2	1	1	1	-1	
+0	0	-1	1	1	
+0	0	3	1	1	
+0	0	0	1	1	
+
+Thread 1: handling cell [2][0]
+1	1	1	1	1	
+1	1	1	1	-1	
+2	0	-1	1	1	
+0	0	3	1	1	
+0	0	0	1	1	
+
+Thread 2: handling cell [4][2]
+1	1	1	1	1	
+1	1	1	1	-1	
+2	0	-1	1	1	
+0	0	1	1	1	
+0	0	3	1	1	
+
+Thread 1: handling cell [2][1]
+1	1	1	1	1	
+1	1	1	1	-1	
+1	2	-1	1	1	
+0	0	1	1	1	
+0	0	3	1	1	
+
+Thread 2: handling cell [4][1]
+1	1	1	1	1	
+1	1	1	1	-1	
+1	2	-1	1	1	
+0	0	1	1	1	
+0	3	1	1	1	
+
+Thread 1: cant handle cell [2][2]
+1	1	1	1	1	
+1	1	1	1	-1	
+1	1	2	1	1	
+0	0	1	1	1	
+0	3	1	1	1	
+
+Thread 1: cell is already cleared [2][3]
+1	1	1	1	1	
+1	1	1	1	-1	
+1	1	-1	2	1	
+0	0	1	1	1	
+0	3	1	1	1	
+
+Thread 1: cell is already cleared [2][4]
+1	1	1	1	1	
+1	1	1	1	-1	
+1	1	-1	1	2	
+0	0	1	1	1	
+0	3	1	1	1	
+
+Thread 1: cell is already cleared [3][4]
+1	1	1	1	1	
+1	1	1	1	-1	
+1	1	-1	1	1	
+0	0	1	1	2	
+0	3	1	1	1	
+
+Thread 1: cell is already cleared [3][3]
+1	1	1	1	1	
+1	1	1	1	-1	
+1	1	-1	1	1	
+0	0	1	2	1	
+0	3	1	1	1	
+
+Thread 2: handling cell [3][1]
+1	1	1	1	1	
+1	1	1	1	-1	
+1	1	-1	1	1	
+0	3	2	1	1	
+0	1	1	1	1	
+
+Thread 1: cell is already cleared [3][2]
+1	1	1	1	1	
+1	1	1	1	-1	
+1	1	-1	1	1	
+0	3	2	1	1	
+0	1	1	1	1	
+
+Thread 1: waiting for Thread 2 [3][1]
+1	1	1	1	1	
+1	1	1	1	-1	
+1	1	-1	1	1	
+0	3	1	1	1	
+0	1	1	1	1	
+
+Thread 1: DONE waiting for Thread 2 [3][1]
+1	1	1	1	1	
+1	1	1	1	-1	
+1	1	-1	1	1	
+0	1	1	1	1	
+0	1	1	1	1	
+
+Thread 2: cell is already cleared [2][1]
+1	1	1	1	1	
+1	1	1	1	-1	
+1	3	-1	1	1	
+0	1	1	1	1	
+0	1	1	1	1	
+
+Thread 1: handling cell [3][0]
+1	1	1	1	1	
+1	1	1	1	-1	
+1	3	-1	1	1	
+2	1	1	1	1	
+0	1	1	1	1	
+
+Thread 2: cell is already cleared [1][1]
+1	1	1	1	1	
+1	3	1	1	-1	
+1	1	-1	1	1	
+2	1	1	1	1	
+0	1	1	1	1	
+
+Thread 2: cell is already cleared [0][1]
+1	3	1	1	1	
+1	1	1	1	-1	
+1	1	-1	1	1	
+2	1	1	1	1	
+0	1	1	1	1	
+
+Thread 2: cell is already cleared [0][0]
+3	1	1	1	1	
+1	1	1	1	-1	
+1	1	-1	1	1	
+2	1	1	1	1	
+0	1	1	1	1	
+
+Thread 2: cell is already cleared [1][0]
+1	1	1	1	1	
+3	1	1	1	-1	
+1	1	-1	1	1	
+2	1	1	1	1	
+0	1	1	1	1	
+
+Thread 2: cell is already cleared [2][0]
+1	1	1	1	1	
+1	1	1	1	-1	
+3	1	-1	1	1	
+2	1	1	1	1	
+0	1	1	1	1	
+
+Thread 2: waiting for Thread 1 [3][0]
+1	1	1	1	1	
+1	1	1	1	-1	
+1	1	-1	1	1	
+2	1	1	1	1	
+0	1	1	1	1	
+
+Thread 2: DONE waiting for Thread 1 [3][0]
+1	1	1	1	1	
+1	1	1	1	-1	
+1	1	-1	1	1	
+1	1	1	1	1	
+0	1	1	1	1	
+
+Thread 1: handling cell [4][0]
+1	1	1	1	1	
+1	1	1	1	-1	
+1	1	-1	1	1	
+1	1	1	1	1	
+2	1	1	1	1	
+
+Thread 2: waiting for Thread 1 [4][0]
+1	1	1	1	1	
+1	1	1	1	-1	
+1	1	-1	1	1	
+1	1	1	1	1	
+2	1	1	1	1	
+
+Thread 2: DONE waiting for Thread 1 [4][0]
+1	1	1	1	1	
+1	1	1	1	-1	
+1	1	-1	1	1	
+1	1	1	1	1	
+1	1	1	1	1	
+
+Thread 1: cell is already cleared [4][1]
+1	1	1	1	1	
+1	1	1	1	-1	
+1	1	-1	1	1	
+1	1	1	1	1	
+1	2	1	1	1	
+
+Thread 1: cell is already cleared [4][2]
+1	1	1	1	1	
+1	1	1	1	-1	
+1	1	-1	1	1	
+1	1	1	1	1	
+1	1	2	1	1	
+
+Thread 1: cell is already cleared [4][3]
+1	1	1	1	1	
+1	1	1	1	-1	
+1	1	-1	1	1	
+1	1	1	1	1	
+1	1	1	2	1	
+
+Thread 1: cell is already cleared [4][4]
+1	1	1	1	1	
+1	1	1	1	-1	
+1	1	-1	1	1	
+1	1	1	1	1	
+1	1	1	1	2	
+
